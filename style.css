@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+/* hero section codes */
+.div_left{
+    float: left;
+    width: 40vw;
+    margin: 10vh;
+}
+.div_left p{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 40vw;
+    color: dimgray;
+    /* margin: 10vh; */
+}
+
+.div_left button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding: 10px 40px;
+    /* background-color: white; */
+    background: linear-gradient(282.41deg, #332683 -0.33%, rgba(52, 155, 214, 0.93) 102.46%);
+    color: white;
+    border: 0px solid black ;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+.div_left h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    margin: 0;
+
+}
+.div_left h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+
+}
+.div_left span{
+    color: orange;
+}
+.div_right img{
+    width: 290px;
+    height: 350px;
+    margin-left: 40vh;
+    margin-top: 10vh;
+}
+.div_right{
+    float: right;
+}
+/* hero section ends */
+
+.G_div_right{
+    float: right;
+    margin-top: 30vh;
+}
+.G_div_right h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #332683;
+    margin-bottom: 5vh;
+}
+.G_div_right ul li{
+    color: dimgray;
+    font-size: 20px;
+    margin: 1vh;
+}
+
+.G_div_right button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* background-color: white; */
+    background: linear-gradient(282.41deg, #332683 -0.33%, rgba(52, 155, 214, 0.93) 102.46%);
+    color: white;
+    border: 0px solid black ;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+
+/* experiences section */
+
+.E_div_left{
+    /* box-sizing: border-box; */
+   display: inline-block;
+    width: 50vw;
+    
+}
+
+.E_div_left .box{
+    
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 40vw;
+    margin: 30px;
+    box-shadow: 10px 14px 50px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, #332683, rgba(52, 155, 214)) ;
+    border-image-slice: 1;
+}
+
+.E_div_left p{
+    width: 90%;
+    margin: 30px;
+}
+.E_div_left h2,h3{
+    width: 90%;
+    margin: 30px;
+}
+.E_div_left h3, .E_div_right h3{
+    color: orange;
+}
+
+/* --------------------- */
+.E_div_right{
+    display: inline-block;
+    width: 50vw;
+    
+}
+
+.E_div_right .box{
+    
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 40vw;
+    margin: 30px;
+    box-shadow: 10px 14px 50px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, #332683, rgba(52, 155, 214)) ;
+    border-image-slice: 1;
+}
+
+.E_div_right p{
+    width: 90%;
+    margin: 30px;
+}
+.E_div_right h2,h3{
+    width: 90%;
+    margin: 30px;
+}
+.E_div_right h3, .E_div_right h3{
+    color: orange;
+}
